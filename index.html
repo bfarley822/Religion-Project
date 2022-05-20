@@ -8,7 +8,7 @@
         <title>The Jesus Christ Website</title>
         <link href="./tailwind/output.css" rel="stylesheet">
     </head>
-    <body class="h-screen bg-gradient-to-b from-amber-800 to-amber-500 text-white">
+    <body class="min-h-screen flex flex-col bg-gradient-to-b from-amber-800 to-amber-500 text-white">
         <div class="bg-amber-800 w-full h-16 flex items-center border-b border-amber-900">
             <div class="flex flex-row items-center justify-between px-4 w-full">
                 <a class="text-3xl" href="index.html">The Jesus Christ</a>
@@ -19,11 +19,22 @@
                 </div>
             </div>
         </div>
-        <img class="w-full object-scale-down" src="images/Jesus-Christ-front-page.jpg">
-        <div class="w-full h-64 p-4">
-            Information
+        <div class="flex-auto p-4">
+            <div class="flex flex-col sm:flex-row">
+                <img class="w-full sm:w-1/2 object-scale-down" src="images/Jesus-Christ-front-page.jpg">
+                <div class="w-full pt-4 sm:w-1/2 h-inherit sm:pl-4 sm:pt-0 flex items-center">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                    anim id est laborum."</p>
+                </div>
+            </div>
         </div>
-        
+        <div class="w-full h-10 bg-amber-500 border-t border-amber-600">
+
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
