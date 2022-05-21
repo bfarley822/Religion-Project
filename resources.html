@@ -7,12 +7,23 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>The Jesus Christ Website</title>
         <link href="./tailwind/output.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f27033831c.js" crossorigin="anonymous"></script>
     </head>
     <body class="min-h-screen flex flex-col bg-gradient-to-b from-amber-800 to-amber-500 text-white">
         <div class="bg-amber-800 w-full h-16 flex items-center border-b border-amber-900">
             <div class="flex flex-row items-center justify-between px-4 w-full">
-                <a class="font-medium text-xl sm:text-3xl" href="index.html">The Jesus Christ</a>
-                <div class="flex flex-row">
+                <a class="font-medium text-3xl" href="index.html">The Jesus Christ</a>
+                <div class="flex flex-col sm:hidden">
+                    <button id="dropdownButton" class="sm:hidden text-xl relative" onclick="toggleDropdown()"><i class="fa-solid fa-bars sm:hidden"></i></button>
+                    <div id="dropdownItems" class="w-32 bg-amber-600 hidden absolute top-11 right-4">
+                        <div class="flex flex-col justify-items-center p-4">
+                            <a class="pb-2 hover:text-amber-400 border-b" href="index.html">Home</a>
+                            <a class="py-2 text-amber-400 border-b" href="resources.html">Resources</a>
+                            <a class="py-2 hover:text-amber-400" href="statistics.html">Statistics</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row hidden sm:block">
                     <a class="pr-2 hover:text-amber-400" href="index.html">Home</a>
                     <a class="px-2 text-amber-400" href="resources.html">Resources</a>
                     <a class="pl-2 hover:text-amber-400" href="statistics.html">Statistics</a>
