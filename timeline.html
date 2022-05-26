@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>The Jesus Christ Website</title>
+        <link href="./tailwind/output.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f27033831c.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="min-h-screen flex flex-col bg-gradient-to-b from-amber-800 to-amber-500 text-white">
+        <div class="bg-amber-800 w-full h-16 flex items-center border-b border-amber-900">
+            <div class="flex flex-row items-center justify-between px-4 w-full">
+                <a class="font-medium text-3xl" href="index.html">The Jesus Christ</a>
+                <div class="flex flex-col sm:hidden">
+                    <button id="dropdownButton" class="sm:hidden text-xl relative" onclick="toggleDropdown()"><i class="fa-solid fa-bars sm:hidden"></i></button>
+                    <div id="dropdownItems" class="w-32 bg-amber-600 hidden absolute top-11 right-4">
+                        <div class="flex flex-col justify-items-center p-4">
+                            <a class="pb-2 hover:text-amber-400 border-b" href="index.html">Home</a>
+                            <a class="py-2 text-amber-400 border-b" href="timeline.html">Timeline</a>
+                            <a class="py-2 hover:text-amber-400" href="statistics.html">Statistics</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row hidden sm:block">
+                    <a class="pr-2 hover:text-amber-400" href="index.html">Home</a>
+                    <a class="px-2 text-amber-400" href="timeline.html">Timeline</a>
+                    <a class="pl-2 hover:text-amber-400" href="statistics.html">Statistics</a>
+                </div>
+            </div>
+        </div>
+        <div class="flex-auto">
+            <div class="w-full p-4">
+                <div class="border-b text-xl">
+                    <h1>Timeline</h1>
+                </div>
+                <div class="pt-4">
+                    <p>Here is a timeline of the life of Jesus Christ. It starts with his birth and goes until his resurrection. 
+                       There are bible videos for each of the corresponding timeline events. (not all events are included)</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 w-full mt-4 place-items-center">
+                    <div class="w-full h-full border-t grid place-items-center">Jesus is born</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/xCxV9CbC180"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus is baptized by John</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/9_dr9njVzKM"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus calls his apostles</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/T7xNnBHM5Wg"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus feeds the 5000</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/UtrjViTgPHs"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus walks on water</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/2noonMEnSFg"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus gives the parable of the good samaritan</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/53Pqw20xK10"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus gives the parable of the laborers in the vineyard</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/mUBf5rRSyO0"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus raises Lazarus from the dead</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/sfvzTm1mOCQ"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus performs the Last Supper</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/997ni1xcmKw"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus suffers in Gethsemane</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/goR5FO1vge8"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus is crucified</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/nlALmOx8Sk0"></iframe>
+
+                    <div class="w-full h-full border-t grid place-items-center">Jesus is resurrected</div>
+                    <iframe class="w-full p-2 border-t" src="https://www.youtube.com/embed/MlKetn7ZiNU"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-10 bg-amber-600 border-t border-amber-700">
+            <div class="p-2">
+                <div class="grid">
+                    <p class="justify-self-center">Copyright &copy 2022 Brady Farley Inc.</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
