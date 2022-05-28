@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>The Jesus Christ Website</title>
+        <link href="./tailwind/output.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f27033831c.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="min-h-screen flex flex-col bg-gradient-to-b from-amber-800 to-amber-500 text-white">
+        <div class="bg-amber-800 w-full h-16 flex items-center border-b border-amber-900">
+            <div class="flex flex-row items-center justify-between px-4 w-full">
+                <a class="font-medium text-3xl" href="index.html">The Jesus Christ</a>
+                <div class="flex flex-col sm:hidden">
+                    <button id="dropdownButton" class="sm:hidden text-xl relative" onclick="toggleDropdown()"><i class="fa-solid fa-bars sm:hidden"></i></button>
+                    <div id="dropdownItems" class="w-32 bg-amber-600 hidden absolute top-11 right-4">
+                        <div class="flex flex-col justify-items-center p-4">
+                            <a class="pb-2 hover:text-amber-400 border-b" href="index.html">Home</a>
+                            <a class="py-2 hover:text-amber-400 border-b" href="timeline.html">Timeline</a>
+                            <a class="py-2 text-amber-400" href="testimonies.html">Testimonies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row hidden sm:block">
+                    <a class="pr-2 hover:text-amber-400" href="index.html">Home</a>
+                    <a class="px-2 hover:text-amber-400" href="timeline.html">Timeline</a>
+                    <a class="pl-2 text-amber-400" href="testimonies.html">Testimonies</a>
+                </div>
+            </div>
+        </div>
+        <div class="flex-auto">
+            <div class="w-full p-4">
+                <div class="border-b text-xl">
+                    <h1>Testimonies</h1>
+                </div>
+                <div class="pt-4">
+                    <p>These are links to special witnesses of Jesus Christ from the current prophet and apostles. Click on any of them to go to their special witness.</p>
+                </div>
+                <div class="pt-4">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-4 gap-x-2">
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0010-russell-m-nelson?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Russell M. Nelson</div>
+                                    <img class="w-40" src="images/RMN.jpg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0020-dallin-h-oaks?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Dallin H. Oaks</div>
+                                    <img class="w-40" src="images/DHO.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0030-henry-b-eyring?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Henry B. Eyring</div>
+                                    <img class="w-40" src="images/HBE.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0040-m-russell-ballard?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">M. Russell Ballard</div>
+                                    <img class="w-40" src="images/MRB.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0050-jeffrey-r-holland?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Jeffrey R. Holland</div>
+                                    <img class="w-40" src="images/JRH.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0060-dieter-f-uchtdorf?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Dieter F. Uchtdorf</div>
+                                    <img class="w-40" src="images/DFU.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0070-david-a-bednar?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">David A. Bednar</div>
+                                    <img class="w-40" src="images/DAB.png">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0080-quentin-l-cook?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Quentin L. Cook</div>
+                                    <img class="w-40" src="images/QLC.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0090-d-todd-christofferson?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">D. Todd Christofferson</div>
+                                    <img class="w-40" src="images/DTC.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0100-neil-l-andersen?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Neil L. Andersen</div>
+                                    <img class="w-40" src="images/NLA.png">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0110-ronald-a-rasband?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Ronald A. Rasband</div>
+                                    <img class="w-40" src="images/RAR.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0120-gary-e-stevenson?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Gary E. Stevenson</div>
+                                    <img class="w-40" src="images/GES.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0130-dale-g-renlund?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Dale G. Renlund</div>
+                                    <img class="w-40" src="images/DGR.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0140-gerrit-w-gong?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Gerrit W. Gong</div>
+                                    <img class="w-40" src="images/GWG.jpeg">
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.churchofjesuschrist.org/media/video/2019-07-0150-ulisses-soares?lang=eng&alang=eng&collectionId=5f66780500364cd5a9943ef490ce8296" target="_blank">
+                                <div class="grid justify-items-center">
+                                    <div class="hover:text-blue-300">Ulisses Soares</div>
+                                    <img class="w-40" src="images/US.png">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-4 border-b"></div>
+                <div class="pt-4">
+                    <p>These are scriptural references of testimonies about Jesus Christ from prophets in the Book of Mormon.</p>
+                </div>
+                <div class="pt-4 ">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 gap-x-2 justify-items-center">
+                        <div>
+                            <div class="bg-amber-800 p-4 rounded-lg drop-shadow-lg">
+                                <div class="underline underline-offset-4">Believe in the Son of God</div>
+                                <ul class="list-disc pl-6">
+                                    <li>Jacob ~ 2 Nephi 9:5-15</li>
+                                    <li>Nephi ~ 2 Nephi 25:12-13</li>
+                                    <li>Benjamin ~ Mosiah 3:5-10</li>
+                                    <li>Abinadi ~ Mosiah 15:5-9, 20; 16:10</li>
+                                    <li>Amulek ~ Alma 11:39-41</li>
+                                    <li>Alma ~ Alma 33:22</li>
+                                    <li>Moroni ~ Mormon 9:1-14</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-amber-800 p-4 rounded-lg drop-shadow-lg">
+                                <div class="underline underline-offset-4">He will come to redeem his people</div>
+                                <ul class="list-disc pl-6">
+                                    <li>Nephi ~ 1 Nephi 11:31-33</li>
+                                    <li>Nephi ~ 1 Nephi 19:9-10</li>
+                                    <li>Jacob ~ 2 Nephi 9:5-15</li>
+                                    <li>Nephi ~ 2 Nephi 25:12-13</li>
+                                    <li>Benjamin ~ Mosiah 3:5-10</li>
+                                    <li>Abinadi ~ Mosiah 15:5-9, 20; 16:10</li>
+                                    <li>Amulek ~ Alma 11:39-41</li>
+                                    <li>Alma ~ Alma 33:22</li>
+                                    <li>Moroni ~ Mormon 9:1-14</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-amber-800 p-4 rounded-lg drop-shadow-lg">
+                                <div class="underline underline-offset-4">He shall suffer and die</div>
+                                <ul class="list-disc pl-6">
+                                    <li>Nephi ~ 1 Nephi 11:31-33</li>
+                                    <li>Nephi ~ 1 Nephi 19:9-10</li>
+                                    <li>Jacob ~ 2 Nephi 9:5-15</li>
+                                    <li>Nephi ~ 2 Nephi 25:12-13</li>
+                                    <li>Benjamin ~ Mosiah 3:5-10</li>
+                                    <li>Abinadi ~ Mosiah 15:5-9, 20; 16:10</li>
+                                    <li>Alma ~ Alma 33:22</li>
+                                    <li>Moroni ~ Mormon 9:1-14</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-amber-800 p-4 rounded-lg drop-shadow-lg">
+                                <div class="underline underline-offset-4">He will atone for their sins</div>
+                                <ul class="list-disc pl-6">
+                                    <li>Nephi ~ 1 Nephi 11:31-33</li>
+                                    <li>Nephi ~ 1 Nephi 19:9-10</li>
+                                    <li>Jacob ~ 2 Nephi 9:5-15</li>
+                                    <li>Nephi ~ 2 Nephi 25:12-13</li>
+                                    <li>Benjamin ~ Mosiah 3:5-10</li>
+                                    <li>Abinadi ~ Mosiah 15:5-9, 20; 16:10</li>
+                                    <li>Amulek ~ Alma 11:39-41</li>
+                                    <li>Alma ~ Alma 33:22</li>
+                                    <li>Moroni ~ Mormon 9:1-14</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-amber-800 p-4 rounded-lg drop-shadow-lg">
+                                <div class="underline underline-offset-4">He shall rise again from the dead</div>
+                                <ul class="list-disc pl-6">
+                                    <li>Nephi ~ 1 Nephi 19:9-10</li>
+                                    <li>Jacob ~ 2 Nephi 9:5-15</li>
+                                    <li>Nephi ~ 2 Nephi 25:12-13</li>
+                                    <li>Benjamin ~ Mosiah 3:5-10</li>
+                                    <li>Abinadi ~ Mosiah 15:5-9, 20; 16:10</li>
+                                    <li>Alma ~ Alma 33:22</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-amber-800 p-4 rounded-lg drop-shadow-lg">
+                                <div class="underline underline-offset-4">He will bring to pass the resurrection</div>
+                                <ul class="list-disc pl-6">
+                                    <li>Nephi ~ 1 Nephi 19:9-10</li>
+                                    <li>Jacob ~ 2 Nephi 9:5-15</li>
+                                    <li>Nephi ~ 2 Nephi 25:12-13</li>
+                                    <li>Abinadi ~ Mosiah 15:5-9, 20; 16:10</li>
+                                    <li>Amulek ~ Alma 11:39-41</li>
+                                    <li>Alma ~ Alma 33:22</li>
+                                    <li>Moroni ~ Mormon 9:1-14</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-amber-800 p-4 rounded-lg drop-shadow-lg">
+                                <div class="underline underline-offset-4">He shall judge all men</div>
+                                <ul class="list-disc pl-6">
+                                    <li>Jacob ~ 2 Nephi 9:5-15</li>
+                                    <li>Benjamin ~ Mosiah 3:5-10</li>
+                                    <li>Abinadi ~ Mosiah 15:5-9, 20; 16:10</li>
+                                    <li>Amulek ~ Alma 11:39-41</li>
+                                    <li>Alma ~ Alma 33:22</li>
+                                    <li>Moroni ~ Mormon 9:1-14</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-10 bg-amber-600 border-t border-amber-700">
+            <div class="p-2">
+                <div class="grid">
+                    <p class="justify-self-center">Copyright &copy 2022 Brady Farley Inc.</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

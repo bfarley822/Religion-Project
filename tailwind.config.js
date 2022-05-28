@@ -1,8 +1,8 @@
 module.exports = {
   content: [
     './index.html',
-    './resources.html',
-    './statistics.html',
+    './timeline.html',
+    './testimonies.html',
     './script.js'
   ],
   theme: {
